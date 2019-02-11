@@ -1,0 +1,1 @@
+C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\CurrencyApp.csproj;x86
