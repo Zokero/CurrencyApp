@@ -189,17 +189,21 @@ namespace CurrencyApp.CurrencyApp_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[6];
             _typeNameTable[0] = "CurrencyApp.HistoryPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "CurrencyApp.MainPage";
+            _typeNameTable[4] = "CurrencyApp.CurrencyViewModel";
+            _typeNameTable[5] = "Object";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[6];
             _typeTable[0] = typeof(global::CurrencyApp.HistoryPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::CurrencyApp.MainPage);
+            _typeTable[4] = typeof(global::CurrencyApp.CurrencyViewModel);
+            _typeTable[5] = typeof(global::System.Object);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -236,6 +240,7 @@ namespace CurrencyApp.CurrencyApp_XamlTypeInfo
 
         private object Activate_0_HistoryPage() { return new global::CurrencyApp.HistoryPage(); }
         private object Activate_3_MainPage() { return new global::CurrencyApp.MainPage(); }
+        private object Activate_4_CurrencyViewModel() { return new global::CurrencyApp.CurrencyViewModel(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -265,19 +270,51 @@ namespace CurrencyApp.CurrencyApp_XamlTypeInfo
             case 3:   //  CurrencyApp.MainPage
                 userType = new global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_MainPage;
+                userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
+                break;
+
+            case 4:   //  CurrencyApp.CurrencyViewModel
+                userType = new global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 5:   //  Object
+                xamlType = new global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
             return xamlType;
         }
 
 
+        private object get_0_MainPage_ViewModel(object instance)
+        {
+            var that = (global::CurrencyApp.MainPage)instance;
+            return that.ViewModel;
+        }
+        private void set_0_MainPage_ViewModel(object instance, object Value)
+        {
+            var that = (global::CurrencyApp.MainPage)instance;
+            that.ViewModel = (global::CurrencyApp.CurrencyViewModel)Value;
+        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
             global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlMember xamlMember = null;
-            // No Local Properties
+            global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlUserType userType;
+
+            switch (longMemberName)
+            {
+            case "CurrencyApp.MainPage.ViewModel":
+                userType = (global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlUserType)GetXamlTypeByName("CurrencyApp.MainPage");
+                xamlMember = new global::CurrencyApp.CurrencyApp_XamlTypeInfo.XamlMember(this, "ViewModel", "CurrencyApp.CurrencyViewModel");
+                xamlMember.Getter = get_0_MainPage_ViewModel;
+                xamlMember.Setter = set_0_MainPage_ViewModel;
+                break;
+            }
             return xamlMember;
         }
     }

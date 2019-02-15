@@ -1,0 +1,12 @@
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\App.g.i.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\App.g.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\HistoryPage.g.i.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\HistoryPage.g.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\MainPage.g.i.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\MainPage.g.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\App.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\HistoryPage.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\MainPage.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\App.xbf
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\HistoryPage.xbf
+E:\git-repos\CurrencyApp\CurrencyApp\obj\ARM64\Debug\MainPage.xbf

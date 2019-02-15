@@ -1,0 +1,9 @@
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\App.g.i.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\App.g.cs
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\App.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\HistoryPage.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\MainPage.xaml
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\App.xbf
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\HistoryPage.xbf
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\MainPage.xbf
+E:\git-repos\CurrencyApp\CurrencyApp\obj\x64\Debug\XamlSaveStateFile.xml

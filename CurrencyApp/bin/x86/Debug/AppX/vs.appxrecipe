@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>LCJ-5CG64951L4</Machine>
-    <WindowsUser>pikuk1</WindowsUser>
+    <Machine>DESKTOP-MT2R9VU</Machine>
+    <WindowsUser>ZPPC</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,16 +10,16 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>8a060ccd-4434-42cd-a1fe-f03187cbfe8e</PackageIdentityName>
     <PackageIdentityPublisher>CN=pikuk1</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\git-repos\CurrencyApp\CurrencyApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>58D2F98C466EE4F8C3E6272AA5384AD59F3D5C9AEE950F067DA3F8963045DC6D</RegisteredManifestChecksum>
+    <WindowsSdkPath>E:\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>27DD53B04CA1162EBF82FA2A052E8BA8C4F59EDA5E86B08AD5F18EBF5F1E84D5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>8a060ccd-4434-42cd-a1fe-f03187cbfe8e_1.0.0.0_x86__91ne30gmrwd00</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>8a060ccd-4434-42cd-a1fe-f03187cbfe8e_91ne30gmrwd00!App</RegisteredUserModeAppID>
     <RegisteredPackageID>8a060ccd-4434-42cd-a1fe-f03187cbfe8e</RegisteredPackageID>
@@ -27,86 +27,98 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-02-09T17:55:45.927</Modified>
+      <Modified>2019-02-14T00:42:46.937</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\CurrencyApp.exe">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\CurrencyApp.exe">
       <PackagePath>entrypoint\CurrencyApp.exe</PackagePath>
-      <Modified>2019-02-09T17:55:45.274</Modified>
+      <Modified>2019-02-14T00:42:46.578</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ZPPC\.nuget\packages\microsoft.aspnet.webapi.client\5.2.7\lib\netstandard2.0\System.Net.Http.Formatting.dll">
+      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
+      <Modified>2018-11-28T12:00:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ZPPC\.nuget\packages\newtonsoft.json\10.0.1\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-03-20T19:03:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ZPPC\.nuget\packages\newtonsoft.json.bson\1.0.1\lib\netstandard1.3\Newtonsoft.Json.Bson.dll">
+      <PackagePath>Newtonsoft.Json.Bson.dll</PackagePath>
+      <Modified>2017-03-22T10:01:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.3\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2018-11-29T09:27:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-02-09T13:24:54.618</Modified>
+      <Modified>2019-02-11T20:40:15.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.939</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-01-14T14:56:21.011</Modified>
+      <Modified>2019-02-11T20:40:15.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\CurrencyApp.xr.xml">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\CurrencyApp.xr.xml">
       <PackagePath>CurrencyApp.xr.xml</PackagePath>
-      <Modified>2019-02-09T17:53:46.699</Modified>
+      <Modified>2019-02-14T00:42:46.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-02-09T17:55:45.016</Modified>
+      <Modified>2019-02-14T00:42:46.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\HistoryPage.xbf">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\HistoryPage.xbf">
       <PackagePath>HistoryPage.xbf</PackagePath>
-      <Modified>2019-02-09T17:55:45.017</Modified>
+      <Modified>2019-02-14T00:42:46.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-02-09T17:55:45.018</Modified>
+      <Modified>2019-02-14T00:42:46.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+    <AppxPackagedFile Include="E:\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-04-19T21:01:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-02-09T17:53:47.671</Modified>
+      <Modified>2019-02-12T18:39:03.628</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pikuk1\Documents\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\Core\CurrencyApp.exe">
+    <AppxPackagedFile Include="E:\git-repos\CurrencyApp\CurrencyApp\bin\x86\Debug\Core\CurrencyApp.exe">
       <PackagePath>CurrencyApp.exe</PackagePath>
-      <Modified>2019-02-09T17:55:45.921</Modified>
+      <Modified>2019-02-14T00:42:46.933</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

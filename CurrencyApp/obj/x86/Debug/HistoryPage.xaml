@@ -9,7 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" Margin="1172,722,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="159"                     />
+        <Hub Header = "History of currency"/>
+        <Button x:ConnectionId='2' Content="Back" HorizontalAlignment="Left" Margin="1625,948,0,83" VerticalAlignment="Stretch" RenderTransformOrigin="0.5,0.5" Width="159"                     />
 
     </Grid>
 </Page>

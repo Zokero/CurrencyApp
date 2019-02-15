@@ -8,11 +8,33 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Stretch" Margin="0,0,0,0">
-        <Hub Header = "Currency Checker"/>
-        <Button Content="History of Currency" HorizontalAlignment="Left" Margin="685,336,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="437,413,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.476,0.425" Width="554"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="685,257,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+    <SplitView IsPaneOpen="True"
+           DisplayMode="Inline"
+           OpenPaneLength="296">
+        <SplitView.Pane>
+            <ListView x:Name="currencyListView" ItemsSource="{x:Bind Path=ViewModel.Currency}">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="local:Data">
+                        <TextBlock Text="{x:Bind Name}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </SplitView.Pane>
+        <SplitView.Content>
 
-    </Grid>
+            <StackPanel DataContext="{Binding SelectedItem, ElementName=currencyListView}" HorizontalAlignment="Stretch" Margin="10,0,0,0" VerticalAlignment="Stretch">
+                
+                
+                <TextBlock>
+                    <Run Text="{Binding Date}"/>
+                    <Run Text="{Binding Value}"/>
+                </TextBlock>
+
+            </StackPanel>
+            
+
+        </SplitView.Content>
+        
+    </SplitView>
+
 </Page>

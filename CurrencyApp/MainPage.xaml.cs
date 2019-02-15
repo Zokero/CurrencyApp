@@ -25,7 +25,10 @@ namespace CurrencyApp
         public MainPage()
         {
             this.InitializeComponent();
+            this.ViewModel = new CurrencyViewModel();
         }
+
+        public CurrencyViewModel ViewModel { get; set; }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -34,6 +37,16 @@ namespace CurrencyApp
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void CurrencyListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
